@@ -1,0 +1,435 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+
+header{
+   max-width:100%;
+   height: 870px;
+   
+
+}
+
+.header__inner{
+   width:1600px;
+   height: 70px;
+   display: flex;
+   justify-content: space-between;
+   margin-left: 90px;
+   margin-right: 70px;
+   align-items: center;
+  
+
+
+}
+
+.header__inner-firstNav-items{
+    display: flex;
+    font-weight: 400;
+    font-size:10px;
+    line-height: 12px;
+    color:rgba(0, 0, 0, 0.3)
+
+
+    
+}
+
+.header__inner-secNav-items{
+    display:flex;
+    display: flex;
+    font-weight: 400;
+    font-size:10px;
+    line-height: 12px;
+    color:rgba(0, 0, 0, 0.3)
+}
+
+.header__inner-firstNav-item{
+margin-right: 40px;
+list-style-type: none;
+
+}
+.header__inner-secNav-item{
+    margin-right: 40px;
+    list-style-type: none;
+    }
+
+
+
+    
+
+    .header__main{
+      width:100%;
+      height: 800px;
+      padding-top:280px;
+      padding-left: 500px;
+      padding-right: 342px;
+      background-image: url("../img/main-bg.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      color:white; 
+
+    }
+
+  
+
+    .header__main-heading{
+      
+      font-weight: 400;
+      font-size:60px;
+      padding-bottom: 40px;
+
+    }
+
+    .header__main-text{
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     width:650px;
+     padding-left:250px;
+
+    }
+
+    .main__btns{
+        padding-left:200px;
+        padding-top:70px;
+        display: flex;
+
+
+    }
+
+    .main__btn{
+        margin-right: 10px;
+        width:215px;
+        height: 36px;
+        border:1px solid white;
+        padding-bottom: 5px;
+        padding-top: 7px;
+        padding-left:55px;
+    }
+
+    .girls{
+       display: flex;
+       width:100%;
+       height: 600px;
+
+    }
+  .firts_grl{
+      background-image: url("../img/first-grl.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width:50%;
+  }
+
+  .secnd-grl{
+background-image: url("../img/second-grl.png");
+width:50%;
+background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .firts_grl_text{
+    padding-top:400px;
+    padding-left:350px;
+
+
+
+
+  }
+
+  .firts_grl_text h3{
+font-weight: 400;
+ font-size:34px;
+ line-height: 42px;
+ color:white;
+ padding-bottom: 13px;
+
+  }
+
+  .firts_grl_text p{
+     padding-bottom:9px;
+     color:white;
+     font-size: 16px;
+     
+
+  }
+
+  .select{
+    padding-left:310px;
+    padding-top:30px;
+    display: flex;
+
+  }
+
+  .select h2{
+    margin-right:40px;
+    color:white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+ 
+  }
+
+  .second-grl_text{
+    padding-top:400px;
+    padding-left:400px;
+
+
+  }
+
+  .second-grl_text h3{
+    font-weight: 400;
+    font-size:34px;
+    line-height: 42px;
+    color:white;
+    padding-bottom: 13px;
+
+  }
+
+  .second-grl_text p{
+    padding-bottom:9px;
+    color:white;
+    font-size: 16px;
+
+
+  }
+
+
+  .select2{
+     display: flex;
+     color:white;
+     padding-left:400px;
+     padding-top:25px;
+
+
+
+  }
+
+  .select2 h2{
+    margin-right:40px;
+    color:white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+
+  }
+
+  .duxi{
+    width:100%;
+    height: 732px;
+    background-color: black;
+
+
+
+  }
+  .duxi h1{
+      color:white;
+      font-weight: 400;
+      font-size: 38px;
+      line-height: 42px;
+      padding-top:66px;
+      padding-left: 600px;
+  }
+
+  .duxi_img{
+
+    padding-left: 550px;
+
+  }
+  .duxi_text{
+color:white;
+ font-size:16px;
+ font-weight: 400;
+ line-height: 24px;
+ width:532px;
+ height:100px;
+ margin-left: 500px;
+ 
+
+  }
+
+  .innovation{
+   width:100%;
+   height: 800px;
+   background-image: url("../img/innovation.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+
+
+  }
+
+  .innovation_texting{
+   padding-top:291px;
+   padding-left:680px;
+   color:white;
+
+  }
+
+  .innovation_heading{
+    font-size: 38px;
+    width:500px;
+    height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+
+  }
+
+  .innovation__btns{
+      padding-top:30px;
+      display: flex;
+  }
+
+  .innovation__btn{
+     border: 1px solid white;
+     width:215px;
+     height: 36px;
+     padding-top:8px;
+     padding-left:50px;
+     margin-right: 20px;
+
+
+  }
+
+  .founder{
+    width:100%;
+    height: 450px;
+    background-image: url("../img/founder.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .founder_texting{
+     padding-left:50%;
+     padding-top:138px;
+     
+
+  }
+  .founder_heading{
+   font-size:35px;
+   font-weight: 400;
+   line-height: 42px;
+   color: #1B1B1B;
+   padding-bottom:50px;
+   
+
+
+  }
+
+  .founder_subtitle{
+    width:340px;
+    height: 45px;
+
+
+  }
+
+  .brands{
+    width:100%;
+    height: 500px;;
+    align-items: center;
+    display: flex;
+
+  }
+
+  .brands_content{
+      display: flex;
+      justify-content: space-between;
+     
+  }
+
+  .brands_content div{
+     margin-right: 100px;
+
+  }
+
+  .barnds_content_text{
+    padding-bottom: 50px;
+
+  }
+
+  footer{
+   width:100%;
+   height: 500px;
+   display: flex;
+   background-color:black;
+
+
+  }
+
+  .info_in_footer{
+    width:50%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+  }
+
+  .list li{
+    color: #7E7E7E;
+
+     list-style-type: none;
+
+     
+
+
+  }
+
+  .list li:last-child{
+   color:white;
+
+  }
+
+  .footer_head{
+      color:white;
+      padding-bottom: 30px;
+
+  }
+
+  .list2 li{
+
+    color:#7E7E7E;
+    list-style-type: none;
+  }
+
+  .footer_contacts{
+    padding-left:400px;
+    
+
+  }
+
+  .contacts_list{
+     display: flex;
+
+  }
+
+  .contacts_list li{
+      margin-right: 20px;;
+  }
+
+  .news{
+     display: flex;
+     padding-top:80px;;
+  }
+
+  .contacts_title{
+      padding-top:90px;
+
+      color:white;
+  }
+
+  .contacts_list{
+     padding-top:30px;
+
+  }
+  .news_btn{
+      width:135px;
+      height: 38px;
+      background-color:white;
+      padding-top:11px;
+      padding-bottom:12px;
+      padding-left:17px;
+  }
